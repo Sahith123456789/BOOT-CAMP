@@ -1,3 +1,17 @@
 h1{
     color: red
 }
+
+
+.navbar{
+    border-style: solid;
+    border-Width: 3px;
+    border-color:crimson;
+    padding: 30px;
+    text-align: center;
+}
+.navbar a[
+    padding: 20px;
+    text-decoration: none;
+    color: black; 
+]
