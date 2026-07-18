@@ -1,17 +1,21 @@
-h1{
-    color: red
+body{
+    margin: 0px;
 }
 
+h1 {
+    color: red;
+}
 
 .navbar{
     border-style: solid;
-    border-Width: 3px;
-    border-color:crimson;
-    padding: 30px;
+    border-width: 1px;
+    border-color: gray;
+    padding: 20px;
     text-align: center;
 }
-.navbar a[
+
+.navbar a{
     padding: 20px;
     text-decoration: none;
-    color: black; 
-]
+    color: black;
+} ⁠
