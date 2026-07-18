@@ -28,6 +28,9 @@ body{
     box-shadow:0 4px 20px rgba(0,0,0,.1);
 
 }
+/* ===========================
+   Logo
+=========================== */
 
 .logo{
 
@@ -41,25 +44,59 @@ body{
 
 .logo img{
 
-    width:55px;
+    width:60px;
 
-    height:55px;
+    height:60px;
 
     border-radius:50%;
 
+    object-fit:cover;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
 }
 
-.logo span{
+.logo-text{
 
-    font-size:28px;
+    display:flex;
 
-    font-weight:bold;
+    flex-direction:column;
 
-    background:linear-gradient(90deg,#2563eb,#9333ea,#ec4899);
+    justify-content:center;
+
+}
+
+.logo-text h2{
+
+    margin:0;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    background:linear-gradient(90deg,#2563eb,#7c3aed,#ec4899);
 
     -webkit-background-clip:text;
 
     -webkit-text-fill-color:transparent;
+
+    letter-spacing:.5px;
+
+}
+
+.logo-text p{
+
+    margin-top:3px;
+
+    color:#6b7280;
+
+    font-size:13px;
+
+    font-weight:500;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
 
 }
 
