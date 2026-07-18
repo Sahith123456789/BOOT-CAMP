@@ -1,3 +1,5 @@
-⁠ // alert("Hello guysss");
+
+index.js
+// alert("Hello guysss");
 
 console.log("hello from JS!")
